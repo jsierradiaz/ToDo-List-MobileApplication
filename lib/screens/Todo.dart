@@ -148,8 +148,6 @@ class _ToDoState extends State<ToDo_screen> {
     _todoController.clear();
   }
 
-
-
   void _runFilter(String enteredKeyword){
 
     List<ToDo> results = [];

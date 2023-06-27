@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/screens/Todo.dart';
+import 'package:untitled/screens/Calendar.dart';
 import './defaults/defaults.dart';
 import 'package:untitled/constants/colors.dart';
 
@@ -20,9 +21,7 @@ class _MainPageState extends State<MainPage>{
 
   final pages  = [
     ToDo_screen(),
-    Center(
-      child: Text("Inbox"),
-    ),
+    Calendar_screen(),
     Center(
       child: Text("Started"),
     ),
@@ -74,13 +73,15 @@ class _MainPageState extends State<MainPage>{
                           SizedBox(
                             height: 10,
                             ),
+                            //ElevatedButton(onPressed: (){}, child: CircleAvatar(radius: 40),
                           CircleAvatar(
                             radius: 40,
-                            backgroundImage: AssetImage('assets/images/avatar.jpg'),
+                           backgroundImage: AssetImage('assets/images/avatar.jpg'),
                           ),
+                          
                           SizedBox(height: 10,
                           ),
-                          Text('Place Holder: NameS'
+                          Text('Place Holder: Name'
                           ),
                           SizedBox(
                             height: 10,

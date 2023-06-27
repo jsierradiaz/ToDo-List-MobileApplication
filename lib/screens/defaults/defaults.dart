@@ -9,7 +9,7 @@ class Defaults {
 
   static final drawerItemText = [
     "ToDo's List",
-    "Place Holder 1",
+    "Calendar",
     "Place Holder 2",
     "Place Holder 3",
     "Place Holder 4",
@@ -18,7 +18,7 @@ class Defaults {
 
   static final drawerItemIcon = [
     Icons.inbox,
-    Icons.star,
+    Icons.calendar_month,
     Icons.send,
     Icons.mail,
     Icons.delete,
